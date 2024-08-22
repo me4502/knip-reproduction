@@ -1,0 +1,11 @@
+{
+  "extends": ["@monorepo/tsconfig", "../../tsconfig.json"],
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist/**/*"]
+}

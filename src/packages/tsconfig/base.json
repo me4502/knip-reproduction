@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "types": ["@monorepo/helper-types/base", "@monorepo/helper-types/other"]
+  }
+}

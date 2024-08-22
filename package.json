@@ -1,0 +1,25 @@
+{
+  "name": "wvpntc",
+  "version": "0.0.23",
+  "description": "Knip case reproduction template - monorepo",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "knip": "knip --include unlisted"
+  },
+  "bugs": "https://github.com/webpro-nl/knip/issues",
+  "homepage": "https://knip.dev",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@types/node": "^20.12.7",
+    "knip": "^5.4.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {}
+}
