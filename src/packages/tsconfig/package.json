@@ -6,5 +6,8 @@
   "main": "./base.json",
   "dependencies": {
     "@monorepo/helper-types": "*"
+  },
+  "exports": {
+    ".": "./base.json"
   }
 }

@@ -8,7 +8,9 @@
   },
   "bugs": "https://github.com/webpro-nl/knip/issues",
   "homepage": "https://knip.dev",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/node": "^20.12.7",
     "knip": "^5.4.0",
